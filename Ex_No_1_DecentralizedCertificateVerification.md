@@ -30,6 +30,15 @@ return certificates[certHash];
 }
 ```
 # Expected Output:
+
+```
+![exp 1a](https://github.com/user-attachments/assets/4f86458a-55ed-47d9-a641-14bcf5e192e1)
+```
+
+```
+![exp 1b](https://github.com/user-attachments/assets/6087a994-07bf-4c85-b1d8-c3b82d2e0b86)
+```
+
 ```
 ● When the university issues a certificate, it gets stored as a hash.
 ● A student or employer can verify the certificate by entering the details.
@@ -40,4 +49,4 @@ High-Level Overview:
 ● Shows how blockchain can be used in education and credential verification.
 ```
 # Result:
-
+The Program executed successfully.
