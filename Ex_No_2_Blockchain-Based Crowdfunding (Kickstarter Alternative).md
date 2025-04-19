@@ -81,4 +81,4 @@ Teaches decentralized fundraising.
 Avoids fraud by ensuring funds are only transferred if the goal is met.
 
 # RESULT: 
-The Program executed successfully.
+The crowdfunding smart contract was successfully implemented to securely manage donations, ensuring funds are released only if the campaign goal is met.
