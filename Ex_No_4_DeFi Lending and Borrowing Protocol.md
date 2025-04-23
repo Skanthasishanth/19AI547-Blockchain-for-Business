@@ -74,6 +74,8 @@ contract DeFiLending {
 
 ```
 # Expected Output:
+
+```
 Users can deposit ETH and earn interest.
 
 
@@ -81,10 +83,18 @@ Users can borrow ETH by providing collateral.
 
 
 If collateral < 150% of borrowed amount, liquidators can seize the collateral.
+```
 
+![4a](https://github.com/user-attachments/assets/d99b99f1-6756-41f7-9de4-5fa64b9012cb)
+
+![4b](https://github.com/user-attachments/assets/a3e79047-4ea6-434c-9056-3992c9f05638)
+
+![4c](https://github.com/user-attachments/assets/12e95d21-18e0-4027-81a5-3d0d987cbb07)
 
 
 # High-Level Overview:
+
+```
 Teaches key DeFi concepts: lending, borrowing, collateral, liquidation.
 
 
@@ -92,6 +102,9 @@ Introduces risk management: overcollateralization and liquidation.
 
 
 Directly related to DeFi protocols like Aave and Compound.
+```
 
 # RESULT : 
+
+Thus, a DeFi Lending and Borrowing Protocol has been successfully built and implenmented on Remix - Ethereum IDE
 
