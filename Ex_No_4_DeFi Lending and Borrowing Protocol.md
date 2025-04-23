@@ -3,7 +3,9 @@
 To build a decentralized lending protocol where users can deposit assets to earn interest and borrow assets by providing collateral. This experiment introduces concepts like overcollateralization, liquidity pools, and interest accrual in DeFi.
 
 # Algorithm:
-Step 1: Setup Lending and Borrowing Mechanism
+
+### Step 1: Setup Lending and Borrowing Mechanism
+
 Users deposit ETH into the contract as liquidity.
 
 
@@ -16,16 +18,17 @@ Borrowers can borrow ETH but must provide collateral (e.g., 150% of the borrowed
 Interest on borrowed funds is calculated dynamically based on utilization rate.
 
 
-Step 2: Implement Overcollateralization
+### Step 2: Implement Overcollateralization
+
 If a borrower’s collateral value drops below a certain liquidation threshold, their collateral is liquidated to repay the debt.
 
 
-Step 3: Allow Liquidation
+### Step 3: Allow Liquidation
+
 If collateral < liquidation threshold, liquidators can repay the borrower's debt and claim their collateral at a discount.
 
 
-
-Program:
+# Program:
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
